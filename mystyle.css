@@ -1,0 +1,63 @@
+body {
+  background-color: lightblue;
+  height: 100px;
+  width:  100px;
+ background-color: blue; /* For browsers that do not support gradients */
+ background-image: linear-gradient(90deg, blue, pink);
+}
+
+h1 {
+  color: #ADD8E6 ;
+  margin-left: 900px;
+    text-shadow: 5px 5px red;
+    font-size: 40px;
+    border-radius: 15px;
+    border: 8px solid yellow;
+  background: #DA70D6;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+h1 {
+  width: 200px;
+  height: 150px;
+  background: red;
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate;
+}
+
+@keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  25%  {background: yellow; left: 200px; top: 0px;}
+  50%  {background: blue; left: 200px; top: 200px;}
+  75%  {background: green; left: 0px; top: 200px;}
+  100% {background: red; left: 0px; top: 0px;}
+}
+
+#Barbs {
+  padding: 20px;
+  border: 5px solid yellow;
+  border-style: dotted dashed solid double;
+  background: #FF1493;
+   width: 100%;
+   color: #00FFFF;
+   text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   font-size: 30px;
+   font-variant: small-caps;
+   border-radius: 25px;
+  border: 8px solid yellow;
+  padding: 50px;
+  border-radius: 15px 50px;
+  padding: 20px;
+  width: 1000px;
+  height: 420px;
+  box-shadow: 5px 10px #888888;
+  margin-left: 500px;
+}
+
+h2 {
+  color: white;
+  margin-left: 900px;
+  text-align: center;
+}
